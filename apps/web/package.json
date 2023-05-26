@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.4.3",
+    "next": "^13.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ui": "workspace:*"
@@ -18,10 +18,14 @@
     "@types/node": "^18.16.14",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
+    "autoprefixer": "^10.4.14",
     "eslint-config-custom": "workspace:*",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.23",
     "prettier": "^2.8.8",
+    "tailwind-config": "workspace:*",
+    "tailwindcss": "^3.3.2",
     "tsconfig": "workspace:*",
     "typescript": "^4.9.5"
   }
