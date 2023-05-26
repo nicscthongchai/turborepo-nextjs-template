@@ -1,5 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["ENABLE_ROBOTS", "HOST_NAME"],
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {

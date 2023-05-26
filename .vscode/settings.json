@@ -1,0 +1,6 @@
+{
+  "css.customData": [".vscode/css_custom_rules.json"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.eol": "\n"
+}
