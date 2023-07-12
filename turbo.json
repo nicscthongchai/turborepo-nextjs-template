@@ -1,7 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["ENABLE_ROBOTS", "HOST_NAME"],
-  "globalDependencies": ["**/.env.*local"],
+  "globalEnv": [
+    "ENABLE_ROBOTS",
+    "NEXT_PUBLIC_HOST_NAME",
+    "NEXT_PUBLIC_ENABLE_SERVICE_WORKER"
+  ],
+  "globalDependencies": ["**/.env", "**/.env.*local"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],

@@ -3,7 +3,7 @@ declare global {
     interface ProcessEnv {
       // Add more env below
       ENABLE_ROBOTS?: string;
-      HOST_NAME?: string;
+      NEXT_PUBLIC_HOST_NAME?: string;
     }
   }
 }

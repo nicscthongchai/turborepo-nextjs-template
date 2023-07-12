@@ -1,18 +1,23 @@
 {
-  "name": "web",
+  "name": "template-pages-router",
+  "title": "WebSiteName",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "^13.4.9",
+    "next-seo": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "workspace:*"
+    "sitemap": "^7.1.1",
+    "tailwind-merge": "^1.13.2",
+    "ui": "workspace:*",
+    "zlib": "^1.0.5"
   },
   "devDependencies": {
     "@types/node": "^18.16.19",

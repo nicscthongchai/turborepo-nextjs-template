@@ -1,5 +1,5 @@
-import RegisterServiceWorker from 'components/RegisterServiceWorker';
 import { Metadata } from 'next';
+import RootLayoutClient from './layout.client';
 import 'styles/globals.css';
 
 export const metadata: Metadata = {
@@ -38,8 +38,9 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className="contents">{children}</body>
-      <RegisterServiceWorker />
+      <body className="contents">
+        <RootLayoutClient>{children}</RootLayoutClient>
+      </body>
     </html>
   );
 }

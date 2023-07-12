@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const hostname = process.env.HOST_NAME || 'http://localhost:3000';
+const hostname = process.env.NEXT_PUBLIC_HOST_NAME || 'http://localhost:3000';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

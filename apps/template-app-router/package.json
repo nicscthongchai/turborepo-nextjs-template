@@ -1,0 +1,32 @@
+{
+  "name": "template-apps-router",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.19",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "autoprefixer": "^10.4.14",
+    "eslint-config-custom": "workspace:*",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.25",
+    "prettier": "^2.8.8",
+    "tailwind-config": "workspace:*",
+    "tailwindcss": "^3.3.2",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.9.5"
+  }
+}
