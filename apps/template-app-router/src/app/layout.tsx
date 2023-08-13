@@ -10,11 +10,7 @@ export const metadata: Metadata = {
   description: 'Input your website description here.',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: NextLayoutProps) {
   return (
     <html lang="en">
       <head>
